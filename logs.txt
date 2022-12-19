@@ -1,0 +1,84 @@
+{
+  config: {
+    url: 'https://www.googleapis.com/upload/youtube/v3/videos?part=snippet%2C%20status&uploadType=multipart',
+    method: 'POST',
+    userAgentDirectives: [ [Object] ],
+    paramsSerializer: [Function (anonymous)],
+    data: PassThrough {
+      _readableState: [ReadableState],
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      allowHalfOpen: true,
+      _flush: [Function: flush],
+      [Symbol(kCapture)]: false,
+      [Symbol(kCallback)]: null
+    },
+    headers: {
+      'x-goog-api-client': 'gdcl/4.4.3 gl-node/18.12.1 auth/6.1.6',      
+      'content-type': 'multipart/related; boundary=bfb09631-4c8e-4999-b840-683b675181b5',
+      'Accept-Encoding': 'gzip',
+      'User-Agent': 'google-api-nodejs-client/4.4.3 (gzip)',
+      Authorization: 'Bearer ya29.a0AX9GBdWjhsrGzTLnwJ9qitLlrUD5c4LVNn8Avj6wBzb4vJs2QZamDVAMmJpu6aG1uf9SQdVT4t1I_fehQR3TCDWwApiYx-nrBdWhKRWM4K3BkrvbCIaJJPvhNckby2OvIsJw8Y11hNonycB0oHXAcBSpbGZY8gaCgYKAd0SARESFQHUCsbCBqsU9jiCL60gu9Nqwymv_g0165',
+      Accept: 'application/json'
+    },
+    params: { part: 'snippet, status', uploadType: 'multipart' },        
+    validateStatus: [Function (anonymous)],
+    retry: true,
+    body: PassThrough {
+      _readableState: [ReadableState],
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      allowHalfOpen: true,
+      _flush: [Function: flush],
+      [Symbol(kCapture)]: false,
+      [Symbol(kCallback)]: null
+    },
+    responseType: 'json'
+  },
+  data: {
+    kind: 'youtube#video',
+    etag: '22NPr9p8kjsNgjyexS_v96kHgKI',
+    id: 'bN4oY_-bTOI',
+    snippet: {
+      publishedAt: '2022-12-19T10:29:27Z',
+      channelId: 'UCjYms9_T4Hfkj2ilax_FRqQ',
+      title: 'Cartoon Clip',
+      description: 'This is a description',
+      thumbnails: [Object],
+      channelTitle: 'Santosh Kushwaha',
+      categoryId: '22',
+      liveBroadcastContent: 'none',
+      localized: [Object]
+    },
+    status: {
+      uploadStatus: 'uploaded',
+      privacyStatus: 'private',
+      license: 'youtube',
+      embeddable: true,
+      publicStatsViewable: true
+    }
+  },
+  headers: {
+    'alt-svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"',
+    'cache-control': 'private',
+    connection: 'close',
+    'content-encoding': 'gzip',
+    'content-type': 'application/json; charset=UTF-8',
+    date: 'Mon, 19 Dec 2022 10:30:08 GMT',
+    server: 'UploadServer',
+    'transfer-encoding': 'chunked',
+    vary: 'Origin, X-Origin, Referer',
+    warning: '214 UploadServer gzipped',
+    'x-guploader-response-body-transformations': 'gzipped',
+    'x-guploader-uploadid': 'ADPycduZrlW2s8Y4eYeiNsGTlORekVK-VGhQqPqEdKh877_izK_XuT49OyaS6Ow8RpdvbRF2VbCDGwV5oqZwcLG31wa0zQUIxByE'
+  },
+  status: 200,
+  statusText: 'OK',
+  request: {
+    responseURL: 'https://www.googleapis.com/upload/youtube/v3/videos?part=snippet%2C%20status&uploadType=multipart'
+  }
+}
