@@ -82,3 +82,337 @@
     responseURL: 'https://www.googleapis.com/upload/youtube/v3/videos?part=snippet%2C%20status&uploadType=multipart'
   }
 }
+
+*****************************************************************************************************************************
+20-12-2022
+-----------------------------------------------------------------------------------------------------------------------------
+
+PS C:\Users\Santosh Kushwaha\Desktop\Goverdhan\Youtube\server> nodemon
+[nodemon] 2.0.20
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): *.*
+[nodemon] watching extensions: js,mjs,json  
+[nodemon] starting `node index.js`
+node:internal/modules/cjs/loader:998
+  throw err;
+  ^
+
+Error: Cannot find module 'dotenv'
+Require stack:
+- C:\Users\Santosh Kushwaha\Desktop\Goverdhan\Youtube\server\index.js   
+    at Module._resolveFilename (node:internal/modules/cjs/loader:995:15)
+    at Module._load (node:internal/modules/cjs/loader:841:27)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (C:\Users\Santosh Kushwaha\Desktop\Goverdhan\Youtube\server\index.js:1:1)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Module._load (node:internal/modules/cjs/loader:878:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\Santosh Kushwaha\\Desktop\\Goverdhan\\Youtube\\server\\index.js'
+  ]
+}
+
+Node.js v18.12.1
+[nodemon] app crashed - waiting for file changes before starting...
+rs
+[nodemon] starting `node index.js`
+node:internal/modules/cjs/loader:998
+  throw err;
+  ^
+
+Error: Cannot find module 'dotenv'
+Require stack:
+- C:\Users\Santosh Kushwaha\Desktop\Goverdhan\Youtube\server\index.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:995:15)
+    at Module._load (node:internal/modules/cjs/loader:841:27)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (C:\Users\Santosh Kushwaha\Desktop\Goverdhan\Youtube\server\index.js:1:1)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Module._load (node:internal/modules/cjs/loader:878:12)
+/run_main:81:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [                                                        /run_main:81:12) {
+    'C:\\Users\\Santosh Kushwaha\\Desktop\\Goverdhan\\Youtube\\server\\index.js'
+  ]                                                                      dex.js'
+}
+
+Node.js v18.12.1
+[nodemon] app crashed - waiting for file changes before starting...      
+PS C:\Users\Santosh Kushwaha\Desktop\Goverdhan\Youtube\server> ^C        
+PS C:\Users\Santosh Kushwaha\Desktop\Goverdhan\Youtube\server> ^C        
+PS C:\Users\Santosh Kushwaha\Desktop\Goverdhan\Youtube\server> nodemon   
+[nodemon] 2.0.20
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): *.*
+[nodemon] watching extensions: js,mjs,json
+[nodemon] starting `node index.js`
+node:internal/modules/cjs/loader:998
+  throw err;
+  ^
+
+Error: Cannot find module 'dotenv'
+Require stack:
+- C:\Users\Santosh Kushwaha\Desktop\Goverdhan\Youtube\server\index.js    
+    at Module._resolveFilename (node:internal/modules/cjs/loader:995:15) 
+    at Module._load (node:internal/modules/cjs/loader:841:27)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (C:\Users\Santosh Kushwaha\Desktop\Goverdhan\Youtube\server\index.js:1:1)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)        
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10) 
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Module._load (node:internal/modules/cjs/loader:878:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\Santosh Kushwaha\\Desktop\\Goverdhan\\Youtube\\server\\index.js'
+  ]
+}
+
+Node.js v18.12.1
+[nodemon] app crashed - waiting for file changes before starting...      
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+Server is listening on 3001
+{
+  fieldname: 'videoFile',
+  originalname: 'SampleVideo_1280x720_10mb.mp4',
+  encoding: '7bit',
+  mimetype: 'video/mp4',
+  destination: './uploads',
+  filename: 'bcbfef25-8731-42d9-8de7-6bd4ecda397e-SampleVideo_1280x720_10mb.mp4',
+  path: 'uploads\\bcbfef25-8731-42d9-8de7-6bd4ecda397e-SampleVideo_1280x720_10mb.mp4',
+  size: 10498677
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: ENOENT: no such file or directory, open 'C:\Users\Santosh Kushwaha\Desktop\Goverdhan\Youtube\server\bcbfef25-8731-42d9-8de7-6bd4ecda397e-SampleVideo_1280x720_10mb.mp4'
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\Santosh Kushwaha\\Desktop\\Goverdhan\\Youtube\\server\\bcbfef25-8731-42d9-8de7-6bd4ecda397e-SampleVideo_1280x720_10mb.mp4'    
+}
+
+Node.js v18.12.1
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+Server is listening on 3001
+{
+  fieldname: 'videoFile',
+  originalname: 'SampleVideo_1280x720_10mb.mp4',
+  encoding: '7bit',
+  mimetype: 'video/mp4',
+  destination: './',
+  filename: '2f140a15-1198-42cd-b2a2-319bf98b8867-SampleVideo_1280x720_10mb.mp4',
+  path: '2f140a15-1198-42cd-b2a2-319bf98b8867-SampleVideo_1280x720_10mb.mp4',
+  size: 10498677
+}
+{
+  config: {
+    url: 'https://www.googleapis.com/upload/youtube/v3/videos?part=snippet%2C%20status&uploadType=multipart',
+    method: 'POST',
+    userAgentDirectives: [ [Object] ],
+    paramsSerializer: [Function (anonymous)],
+    data: PassThrough {
+      _readableState: [ReadableState],
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      allowHalfOpen: true,
+      _flush: [Function: flush],
+      [Symbol(kCapture)]: false,
+      [Symbol(kCallback)]: null
+    },
+    headers: {
+      'x-goog-api-client': 'gdcl/4.4.3 gl-node/18.12.1 auth/6.1.6',      
+      'content-type': 'multipart/related; boundary=8f222041-dbbe-4730-9c8f-1893812b32b1',
+      'Accept-Encoding': 'gzip',
+      'User-Agent': 'google-api-nodejs-client/4.4.3 (gzip)',
+      Authorization: 'Bearer ya29.a0AX9GBdUuTfGE26iPf-D4mbIknQZswfObEcYLmJrA1ZHuvajdER3aEkuLQUOiiYaJG5r4phQ3qoJNnGU7b4o5sA6MTanNW3ScAOoIdgo0cY7-d2kmJtEHkuJnvKB_8mG45YmVgJ_nO5BnlEIDq-pJMvU69tEsfgaCgYKAT4SARESFQHUCsbCrdeG-cu5GsishhKPXMc7WA0165',
+      Accept: 'application/json'
+    },
+    params: { part: 'snippet, status', uploadType: 'multipart' },        
+    validateStatus: [Function (anonymous)],
+    retry: true,
+    body: PassThrough {
+      _readableState: [ReadableState],
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      allowHalfOpen: true,
+      _flush: [Function: flush],
+      [Symbol(kCapture)]: false,
+      [Symbol(kCallback)]: null
+    },
+    responseType: 'json'
+  },
+  data: {
+    kind: 'youtube#video',
+    etag: 'ZqaAahqxFy5x1Zcurg2cBGtI0jU',
+    id: 'QItzy50v3cs',
+    snippet: {
+      publishedAt: '2022-12-20T05:46:52Z',
+      channelId: 'UCjYms9_T4Hfkj2ilax_FRqQ',
+      title: 'Third Sample',
+      description: 'Description',
+      thumbnails: [Object],
+      channelTitle: 'Santosh Kushwaha',
+      categoryId: '22',
+      liveBroadcastContent: 'none',
+      localized: [Object]
+    },
+    status: {
+      uploadStatus: 'uploaded',
+      privacyStatus: 'private',
+      license: 'youtube',
+      embeddable: true,
+      publicStatsViewable: true
+    }
+  },
+  headers: {
+    'alt-svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"',
+    'cache-control': 'private',
+    connection: 'close',
+    'content-encoding': 'gzip',
+    'content-type': 'application/json; charset=UTF-8',
+    date: 'Tue, 20 Dec 2022 05:47:15 GMT',
+    server: 'UploadServer',
+    'transfer-encoding': 'chunked',
+    vary: 'Origin, X-Origin, Referer',
+    warning: '214 UploadServer gzipped',
+    'x-guploader-response-body-transformations': 'gzipped',
+    'x-guploader-uploadid': 'ADPycdv0Ru3cRRgiuJtH2DsHzqGiHi356rw2B61cQmuGqrivM8ky_ic98AYcKtXGXrfXr8DhUSX9fFAChPgoDpWXgOXtGQ'
+  },
+  status: 200,
+  statusText: 'OK',
+  request: {
+    responseURL: 'https://www.googleapis.com/upload/youtube/v3/videos?part=snippet%2C%20status&uploadType=multipart'
+  }
+}
+Done
+[nodemon] clean exit - waiting for changes before restart
+rs
+[nodemon] starting `node index.js`
+Server is listening on 3001
+{
+  fieldname: 'videoFile',
+  originalname: 'SampleVideo_1280x720_5mb.mp4',
+  encoding: '7bit',
+  mimetype: 'video/mp4',
+  destination: './',
+  filename: 'e120135d-7983-4e99-96f4-33685acdfff3-SampleVideo_1280x720_5mb.mp4',
+  path: 'e120135d-7983-4e99-96f4-33685acdfff3-SampleVideo_1280x720_5mb.mp4',
+  size: 5253880
+}
+{
+  config: {
+    url: 'https://www.googleapis.com/upload/youtube/v3/videos?part=snippet%2C%20status&uploadType=multipart',
+    method: 'POST',
+    userAgentDirectives: [ [Object] ],
+    paramsSerializer: [Function (anonymous)],
+    data: PassThrough {
+      _readableState: [ReadableState],
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      allowHalfOpen: true,
+      _flush: [Function: flush],
+      [Symbol(kCapture)]: false,
+      [Symbol(kCallback)]: null
+    },
+    headers: {
+      'x-goog-api-client': 'gdcl/4.4.3 gl-node/18.12.1 auth/6.1.6',      
+      'content-type': 'multipart/related; boundary=3e9d3518-6c70-4b2e-a886-02dfbd778328',
+      'Accept-Encoding': 'gzip',
+      'User-Agent': 'google-api-nodejs-client/4.4.3 (gzip)',
+      Authorization: 'Bearer ya29.a0AX9GBdV6-Vg24twMPdjWW1ad93sJzf0gNNcKF-8_rZ4qw5-8BJTrB-1KbrklVs410xAwkgpdQukjA9QQBPkQUrHPQSMjFe8SK4HrUETY31vn9UAU2VAFSnL47Rfut9DesEHh3RqVYKj2GVHHUvOL9Hiu0SbXzgaCgYKAQgSARESFQHUCsbC8-2eaWjX-bvjE0M9HdxuWw0165',
+      Accept: 'application/json'
+    },
+    params: { part: 'snippet, status', uploadType: 'multipart' },        
+    validateStatus: [Function (anonymous)],
+    retry: true,
+    body: PassThrough {
+      _readableState: [ReadableState],
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      allowHalfOpen: true,
+      _flush: [Function: flush],
+      [Symbol(kCapture)]: false,
+      [Symbol(kCallback)]: null
+    },
+    responseType: 'json'
+  },
+  data: {
+    kind: 'youtube#video',
+    etag: 'KfMI7IqFbc3HQ2Zhe0qvDv13GRE',
+    id: '8ri6DkfhIro',
+    snippet: {
+      publishedAt: '2022-12-20T10:02:49Z',
+      channelId: 'UCjYms9_T4Hfkj2ilax_FRqQ',
+      title: 'Forth Video',
+      description: 'Forth Video description',
+      thumbnails: [Object],
+      channelTitle: 'Santosh Kushwaha',
+      categoryId: '22',
+      liveBroadcastContent: 'none',
+      localized: [Object]
+    },
+    status: {
+      uploadStatus: 'uploaded',
+      privacyStatus: 'private',
+      license: 'youtube',
+      embeddable: true,
+      publicStatsViewable: true
+    }
+  },
+  headers: {
+    'alt-svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"',
+    'cache-control': 'private',
+    connection: 'close',
+    'content-encoding': 'gzip',
+    'content-type': 'application/json; charset=UTF-8',
+    date: 'Tue, 20 Dec 2022 10:03:24 GMT',
+    server: 'UploadServer',
+    'transfer-encoding': 'chunked',
+    vary: 'Origin, X-Origin, Referer',
+    warning: '214 UploadServer gzipped',
+    'x-guploader-response-body-transformations': 'gzipped',
+    'x-guploader-uploadid': 'ADPycdtaK0iSoi9kxoLkKjEJbTzXbc7wrVIOxRQOnCalLbr8C2rEHal-HiHflRo3aJrngo-CAN3Z8E6fq-HvlKgyBQMnoQ'
+  },
+  status: 200,
+  statusText: 'OK',
+  request: {
+    responseURL: 'https://www.googleapis.com/upload/youtube/v3/videos?part=snippet%2C%20status&uploadType=multipart'
+  }
+}
+Done
+[nodemon] clean exit - waiting for changes before restart
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+Server is listening on 3001
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+Server is listening on 3001
+
+
+
+
+
+*****************************************************************************************************************************

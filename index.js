@@ -19,7 +19,7 @@ app.use(cors());
 
 //Upload File
 const storage = multer.diskStorage({
-    destination: './uploads',
+    destination: './',
     filename(req, file, callback) {
         const newFileName = `${uuid()}-${file.originalname}`;
 
@@ -63,7 +63,7 @@ app.post('/upload', uploadVideoFile, (req, res) => {
             success: 1,
             message: 'Request sent'
 
-        });        
+        });  
     }
 })
 
@@ -91,7 +91,7 @@ app.get('/api/auth/google/redirect', (req, res) => {
             if (err) console.log("Error in Inserting Vidio: ", err);
             console.log(data);
             console.log("Done");
-            process.exit();
+            return;
         })
     })
 })
